@@ -1,0 +1,121 @@
+body {
+		background-color: #FAF9F6; 
+		color: black; 
+		font-family: arial, serif;
+		font-size:13pt;
+		text-align:center;
+		
+		}
+div.scroll {
+		margin:4px, 4px;
+                padding:4px;
+                background-color:#FFB6C190;
+                width:100%;
+                height: 525px;
+                overflow-x: hidden;
+                overflow-y: auto;
+                text-align:center;
+            }
+
+h1 {
+		background-color:#3f5a36; 
+		color:#FAF9F6;
+		font-weight:1000;
+		text-shadow: 4px 4px #FFB6C1;
+		}
+
+ 
+		
+.container1 {
+		margin-left: auto;
+		margin-right:auto;
+			}
+.container2 {
+		display: flex;
+			}
+big 		{
+		display:inline-block;
+		border: double 20px #3f5a36;
+		padding: 10px;
+		margin: 20px;
+		border-style: ;
+		border-width:15px;
+		border-bottom-color: #FFC0CB;
+		border-left-color:#3f5a36;
+		border-right-color: #FFC0CB;
+		border-right-color:#FFC0CB;
+		border-radius:#3f5a36;
+		
+}
+p 		{
+		display:inline-block;
+		border: double 20px #3f5a36;
+		padding: 10px;
+		margin: 20px;
+		border-style: ;
+		border-width:15px;
+		border-bottom-color: #FFC0CB;
+		border-left-color:#3f5a36;
+		border-right-color: #FFC0CB;
+		border-right-color:#FFC0CB;
+		border-radius:#3f5a36;
+		
+}
+table 		{
+		display:inline-block;
+		border: double 20px #3f5a36;
+		padding: 10px;
+		margin: 20px;
+		border-style: ;
+		border-width:15px;
+		border-bottom-color: #FFC0CB;
+		border-left-color:#3f5a36;
+		border-right-color: #FFC0CB;
+		border-right-color:#FFC0CB;
+		border-radius:#3f5a36;
+		
+}
+
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color:#3f5a3699;  
+  position: sticky;
+  top: 0px;
+  z-index:1;
+}
+
+li {
+  float: left;
+  padding:5px;
+  top:10px;
+  font-size:25px;
+  font-weight:1000;
+  text-shadow: 4px 4px #FFB6C1;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #3f5a36;
+}
+
+.active {
+  background-color: #FFC0CB;
+}
+img.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  padding-bottom:0px;
+  padding:;
+}
